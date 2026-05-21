@@ -29,11 +29,11 @@ class Cat extends Animal {
 	}
 }
 
-const myCat = new Dog ("Siamese");
+const myCat = new Cat ("Siamese");
 myCat.makeSound();
 myCat.purr();
 
-const myDog = new Cat ("Golden retriever");
+const myDog = new Dog ("Golden retriever");
 myDog.makeSound();
 myDog.bark();
 
